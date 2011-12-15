@@ -1,0 +1,111 @@
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+	"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="1024" height="768" xmlns="http://www.w3.org/2000/svg" version="1.1">
+<style>
+<![CDATA[
+@font-face {
+    font-family: 'ChesterfieldRegular';
+    src: url('./fonts/chester-webfont.eot');
+    src: url('./fonts/chester-webfont.eot?#iefix') format('embedded-opentype'),
+         url('./fonts/chester-webfont.woff') format('woff'),
+         url('./fonts/chester-webfont.ttf') format('truetype'),
+         url('./fonts/chester-webfont.svg#ChesterfieldRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SFFortuneWheelRegular';
+    src: url('./fonts/sf_fortune_wheel-webfont.eot');
+    src: url('./fonts/sf_fortune_wheel-webfont.eot?#iefix') format('embedded-opentype'),
+         url('./fonts/sf_fortune_wheel-webfont.woff') format('woff'),
+         url('./fonts/sf_fortune_wheel-webfont.ttf') format('truetype'),
+         url('./fonts/sf_fortune_wheel-webfont.svg#SFFortuneWheelRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+]]>
+</style>
+
+
+<text x="50" 
+               y="100" 
+               style="font-family: 'SFFortuneWheelRegular'; font-size: 72;">
+               WHEEL OF HEARTBREAK
+       </text>
+
+      <g id="wheel" fill-opacity="1">
+       <path d="M500,400 L375,182 A250,250 0 0,1 625,182 z"
+                style="fill:#ff0000;
+		          fill-opacity: 1;
+		          stroke: black;
+		          stroke-width: 4"/>
+
+       <path d="M500,400 L625,182 A250,250 0 0,1 750,400 z"
+                style="fill:#00ff00;
+		          fill-opacity: 1;
+		          stroke: black;
+		          stroke-width: 4"/>
+
+       <path d="M500,400 L750,400 A250,250 0 0,1 625,618 z"
+                style="fill:#0000ff;
+		          fill-opacity: 1;
+		          stroke: black;
+		          stroke-width: 4"/>
+
+       <path d="M500,400 L625,618 A250,250 0 0,1 375,618 z"
+                style="fill:#ffff00;
+		          fill-opacity: 1;
+		          stroke: black;
+		          stroke-width: 4"/>
+
+       <path d="M500,400 L375,618 A250,250 0 0,1 250,400 z"
+                style="fill:#00ffff;
+		          fill-opacity: 1;
+		          stroke: black;
+		          stroke-width: 4"/>
+
+       <path d="M500,400 L250,400 A250,250 0 0,1 375,182 z"
+                style="fill:#ff00ff;
+		          fill-opacity: 1;
+		          stroke: black;
+		          stroke-width: 4"/>
+
+      <text x="710" 
+               y="275" 
+               transform="rotate(60, 710, 275)" 
+               style="font-family: 'ChesterfieldRegular'; font-size: 44; letter-spacing: -.4em; writing-mode: tb; glyph-orientation-vertical: 0;">
+               WILL
+       </text>
+      <text x="710" 
+               y="525" 
+               transform="rotate(120, 710, 525)" 
+               style="font-family: 'ChesterfieldRegular'; font-size: 44; letter-spacing: -.4em; writing-mode: tb; glyph-orientation-vertical: 0;">
+               JACOB
+       </text>
+      <text x="500" 
+               y="640" 
+               transform="rotate(180, 500, 640)" 
+               style="font-family: 'ChesterfieldRegular'; font-size: 44; letter-spacing: -.4em; writing-mode: tb; glyph-orientation-vertical: 0;">
+               DAVE D
+       </text>
+      <text x="290" 
+               y="525" 
+               transform="rotate(240, 290, 525)" 
+               style="font-family: 'ChesterfieldRegular'; font-size: 44; letter-spacing: -.4em; writing-mode: tb; glyph-orientation-vertical: 0;">
+               DAVE P
+       </text>
+      <text x="290" 
+               y="275" 
+               transform="rotate(300, 290, 275)" 
+               style="font-family: 'ChesterfieldRegular'; font-size: 44; letter-spacing: -.4em; writing-mode: tb; glyph-orientation-vertical: 0;">
+               ERIC
+       </text>
+      <text x="500" 
+               y="160" 
+               style="font-family: 'ChesterfieldRegular'; font-size: 44; letter-spacing: -.4em; writing-mode: tb; glyph-orientation-vertical: 0;">
+               DAN
+       </text>
+       <animateTransform type="rotate" attributeName="transform" values="0 500 400;360 500 400" repeatCount="indefinite" dur="5s"/>
+       </g>
+</svg>
