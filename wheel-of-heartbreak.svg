@@ -7,6 +7,7 @@
   onload="createWheel()">
 
   <script type="application/ecmascript" xlink:href="./wheel-of-heartbreak.js" />
+  <script type="application/ecmascript" xlink:href="./wheel.js" />
 
   <style><![CDATA[
   @font-face {
